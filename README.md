@@ -1,8 +1,16 @@
 # SecureAuthHub - Full Stack Document Management & RAG Platform
 
 ## Architecture Overview
+🚀 **Normal Flow of SecureAuthHub:**
 
-![Architecture Diagram](./architecture-diagram.png)
+1️⃣ **User Registers/Login** 🔐  
+2️⃣ **User Uploads Document** 📄  
+3️⃣ **Backend Processes & Stores Document** 🗄️  
+4️⃣ **User Asks a Question (RAG Q&A)** ❓🤖  
+5️⃣ **Backend Retrieves & Analyzes Relevant Docs** 📚🔎  
+6️⃣ **AI Generates Answer** 💡  
+7️⃣ **User Receives Response** 📬
+
 
 - **Frontend:** React (Vite) app for document upload, RAG Q&A, and authentication (JWT or OIDC)
 - **Backend:** FastAPI (Python) with PostgreSQL, Redis, S3, Elasticsearch, unstructured.io, LangChain/LlamaIndex
@@ -67,4 +75,6 @@ kubectl apply -f k8s-frontend.yaml
 - Use HTTPS in production.
 
 ## License
-MIT
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
