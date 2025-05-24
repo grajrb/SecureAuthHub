@@ -74,6 +74,14 @@ kubectl apply -f k8s-frontend.yaml
 - Store secrets in `.env` files or Kubernetes secrets.
 - Use HTTPS in production.
 
+## High Level / Low Level Design
+
+A detailed architecture diagram and design explanation are included in this repository:
+
+- [Architecture Diagram](./architecture-diagram.md)
+
+For further HLD/LLD documentation, see the Google Doc (if provided by the project owner) or refer to the architecture diagram and the step-by-step flow above.
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
