@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
