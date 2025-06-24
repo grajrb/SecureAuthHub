@@ -12,7 +12,7 @@
 7️⃣ **User Receives Response** 📬
 
 
-- **Frontend:** React (Vite) app for document upload, RAG Q&A, and authentication (JWT or OIDC)
+- **Frontend:** React (Vite) app for document upload, RAG Q&A, and authentication (JWT)
 - **Backend:** FastAPI (Python) with PostgreSQL, Redis, S3, Elasticsearch, unstructured.io, LangChain/LlamaIndex
 - **Deployment:** Docker, Kubernetes manifests, Prometheus/Grafana, ELK stack
 
